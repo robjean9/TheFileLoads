@@ -75,9 +75,13 @@ body {
 }
 
 /* Cor da borda do input */
-.conteudo input {
+.conteudo #search {
 	box-shadow: #208EA1 0 0 3px;
 	border-color: #208EA1;
+}
+
+.tiposArquivos input {
+	margin-left: 55px;
 }
 
 /* Estilo do rodapé da pagina */

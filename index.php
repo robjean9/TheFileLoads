@@ -29,7 +29,20 @@
 			<section class='conteudo'>
 				<form ng-submit='pressEnter()'>
 					<label> The File Loads </label>
-  					<input type="text" class="form-control" aria-describedby="basic-addon1" required>
+					<input type="text" class="form-control" id='search' aria-describedby="basic-addon1" required>
+  					<div class='tiposArquivos'>
+
+						<input type="checkbox"> Musicas
+			
+						<input type="checkbox"> Arquivos
+			
+						<input type="checkbox"> Videos
+				
+						<input type="checkbox"> Imagens
+				
+						<input type="checkbox"> Documentos
+    						
+  					<div>
   				</form>
 				
 			</section>
