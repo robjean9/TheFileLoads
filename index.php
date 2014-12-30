@@ -27,9 +27,9 @@
 				
 			</section>
 
-			<footer class='rodape'>
+			<div class='rodape'>
 				<h2>@CopyRight<h2>
-			</footer>
+			</div>
 		</div>
 	</body>
 </html>
