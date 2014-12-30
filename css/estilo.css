@@ -1,0 +1,79 @@
+/*
+* Qualquer melhoria ou sugestão modifique por favor :D ; 
+*
+*/
+
+ span,h1,h2,p,a {
+ 	color : white;
+ }
+
+/* CSS para centralizar */
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	box-shadow: #bdbdba 0px 2px 5px;
+
+}
+
+/* Estilo do menu bar */
+.menu-bar {
+	background-color: #3E95F0;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+/* Cor e posicionamentos dos textos */
+.menu-bar > *  {
+	display: inline;
+}
+
+/* Posicionamento do Entrar/Cadastrar do menu bar */
+.menu-bar div a {
+	float: right;
+	position: relative;
+	bottom: -55px;
+	text-decoration: none;
+}
+
+.menu-bar div a:hover {
+	color:white;
+}
+
+/* Estilo para o conteudo do centro */
+.conteudo {
+	padding-top: 100px;
+	min-height: 370px;
+	height: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+/*Posicionamento e cor da label central */
+.conteudo label {
+	font-size: 40px;
+	color: #208EA1;
+	margin-left: 30%;
+	margin-bottom: 30px;
+}
+
+/* Cor da borda do input */
+.conteudo input {
+	box-shadow: #208EA1 0 0 3px;
+	border-color: #208EA1;
+}
+
+/* Estilo do rodapé da pagina */
+.rodape {
+	background-color: #3E95F0;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+/*Posicionamento do texto do rodapé */
+.rodape h2 {
+	margin-left: 40%;
+}
