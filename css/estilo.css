@@ -49,6 +49,14 @@ body {
 	color:white;
 }
 
+.menu-bar div a:visited {
+	color:white;
+}
+
+.menu-bar div a:link {
+	color:white;
+}
+
 /* Estilo para o conteudo do centro */
 .conteudo {
 	padding-top: 100px;

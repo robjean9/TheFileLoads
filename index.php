@@ -22,7 +22,7 @@
 			 	</div>
 
 			 	<div class="col-xs-6 col-md-4">
-			 		<a href='#'> Entrar/Cadastrar </a>
+			 		<a href='javascript:;' ng-click='logon()'> Entrar/Cadastrar </a>
 			 	</div>
 			</nav>
 
