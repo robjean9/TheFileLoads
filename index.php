@@ -1,13 +1,18 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app='fileloads'>
 	<head>
 		<title>The File Loads</title>
 		<meta charset='utf-8'/>
 		<link type='text/css' rel='stylesheet' href='css/reset.css' />
 		<link type='text/css' rel='stylesheet' href='css/bootstrap.css' />
 		<link type='text/css' rel='stylesheet' href='css/estilo.css' />
+		<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.js'></script>
+		<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular-resource.js'></script>
+		<script type="text/javascript" src='js/app.js'></script>
+		<script type="text/javascript" src='js/MainController.js'></script>
+
 	</head>
-	<body>
+	<body ng-controller='MainController' >
 		<!-- Container Centralizado -->
 		<div class='container'>
 			<!-- Menu Top -->
@@ -22,8 +27,10 @@
 			</nav>
 
 			<section class='conteudo'>
-				<label> The File Loads </label>
-  				<input type="text" class="form-control"  aria-describedby="basic-addon1">
+				<form ng-submit='pressEnter()'>
+					<label> The File Loads </label>
+  					<input type="text" class="form-control" aria-describedby="basic-addon1" on>
+  				</form>
 				
 			</section>
 
@@ -32,4 +39,7 @@
 			</div>
 		</div>
 	</body>
+	
+	
+	
 </html>
