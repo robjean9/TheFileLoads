@@ -8,6 +8,7 @@
 		<link type='text/css' rel='stylesheet' href='css/estilo.css' />
 		<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.js'></script>
 		<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.8/angular-resource.js'></script>
+		<script type='text/javascript' src='http://vitalets.github.io/checklist-model/checklist-model.js'></script>
 		<script type="text/javascript" src='js/app.js'></script>
 		<script type="text/javascript" src='js/MainController.js'></script>
 
@@ -31,16 +32,9 @@
 					<label> The File Loads </label>
 					<input type="text" class="form-control" id='search' aria-describedby="basic-addon1" required>
   					<div class='tiposArquivos'>
-
-						<input type="checkbox"> Musicas
-			
-						<input type="checkbox"> Arquivos
-			
-						<input type="checkbox"> Videos
-				
-						<input type="checkbox"> Imagens
-				
-						<input type="checkbox"> Documentos
+  						<span ng-repeat='tipo in tipos'>
+  							<input type="checkbox"  checklist-model="user.roles" checklist-value="tipo"> {{tipo.text}} </input>
+  						</span>
     						
   					<div>
   				</form>

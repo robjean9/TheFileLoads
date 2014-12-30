@@ -1,4 +1,4 @@
-var app = angular.module('fileloads', ['ngResource']);
+var app = angular.module('fileloads', ['ngResource','checklist-model']);
 
 
 /* com directive funciona, porém fica lançando excessão, e eu não sei o porque */			

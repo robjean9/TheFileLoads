@@ -84,6 +84,10 @@ body {
 	margin-left: 55px;
 }
 
+.tiposArquivos span {
+	color:black !important;
+}
+
 /* Estilo do rodapé da pagina */
 .rodape {
 	background-color: #3E95F0;
