@@ -29,7 +29,7 @@
 			<section class='conteudo'>
 				<form ng-submit='pressEnter()'>
 					<label> The File Loads </label>
-  					<input type="text" class="form-control" aria-describedby="basic-addon1" on>
+  					<input type="text" class="form-control" aria-describedby="basic-addon1" required>
   				</form>
 				
 			</section>
